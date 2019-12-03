@@ -1,0 +1,169 @@
+Training on Resnet18
+Hyperparameters:
+ 
+train_split: 0.7 
+batch_size: 20 
+epochs: 10 
+threshold: 0.5 
+learning_rate: 0.01 
+momentum: 0.9 
+selected_model: Resnet18 
+loss_function: BCEWithLogitsLoss
+
+starting epoch: 1
+Resnet18 results for epoch 1
+training_loss: 0.2118421613825539
+training_iou: 0.1969230183753307
+training_recall: 0.20529383429672465
+training_precision: 0.3032074356279559
+training_f1_score: 0.20529383429672465 
+
+validation_loss: 0.1530581290858823
+validation_iou: 0.31990990990990953
+validation_recall: 0.321824324324324
+validation_precision: 0.4523648648648649
+validation_f1_score: 0.321824324324324 
+
+
+
+starting epoch: 2
+Resnet18 results for epoch 2
+training_loss: 0.141243034833773
+training_iou: 0.385944123314065
+training_recall: 0.39399325626204185
+training_precision: 0.5289499036608863
+training_f1_score: 0.39399325626204185 
+
+validation_loss: 0.12639658455107664
+validation_iou: 0.5223648648648652
+validation_recall: 0.5340765765765769
+validation_precision: 0.6577702702702702
+validation_f1_score: 0.5340765765765769 
+
+
+
+starting epoch: 3
+Resnet18 results for epoch 3
+training_loss: 0.12160862792778566
+training_iou: 0.5106358381502886
+training_recall: 0.5282273603082845
+training_precision: 0.6438583815028903
+training_f1_score: 0.5282273603082845 
+
+validation_loss: 0.11294588376138662
+validation_iou: 0.5940990990990996
+validation_recall: 0.6135247747747753
+validation_precision: 0.7300675675675675
+validation_f1_score: 0.6135247747747753 
+
+
+
+starting epoch: 4
+Resnet18 results for epoch 4
+training_loss: 0.11259799291288232
+training_iou: 0.5585067437379574
+training_recall: 0.5834344894026972
+training_precision: 0.6825626204238924
+training_f1_score: 0.5834344894026972 
+
+validation_loss: 0.10738994503343427
+validation_iou: 0.6239864864864869
+validation_recall: 0.6555180180180183
+validation_precision: 0.7461711711711712
+validation_f1_score: 0.6555180180180183 
+
+
+
+starting epoch: 5
+Resnet18 results for epoch 5
+training_loss: 0.1064387379440269
+training_iou: 0.5944605009633903
+training_recall: 0.6213150289017334
+training_precision: 0.7159441233140653
+training_f1_score: 0.6213150289017334 
+
+validation_loss: 0.10299071568895031
+validation_iou: 0.6297522522522526
+validation_recall: 0.6532882882882886
+validation_precision: 0.7591779279279279
+validation_f1_score: 0.6532882882882886 
+
+
+
+starting epoch: 6
+Resnet18 results for epoch 6
+training_loss: 0.10339894081126748
+training_iou: 0.6160211946050091
+training_recall: 0.6452408477841999
+training_precision: 0.735115606936416
+training_f1_score: 0.6452408477841999 
+
+validation_loss: 0.10093705265505894
+validation_iou: 0.6495608108108114
+validation_recall: 0.6810472972972975
+validation_precision: 0.7691441441441441
+validation_f1_score: 0.6810472972972975 
+
+
+
+starting epoch: 7
+Resnet18 results for epoch 7
+training_loss: 0.09972758830196596
+training_iou: 0.6328082851637756
+training_recall: 0.66155105973025
+training_precision: 0.7523121387283231
+training_f1_score: 0.66155105973025 
+
+validation_loss: 0.09859400685574557
+validation_iou: 0.6702364864864869
+validation_recall: 0.7144144144144146
+validation_precision: 0.7889076576576576
+validation_f1_score: 0.7144144144144146 
+
+
+
+starting epoch: 8
+Resnet18 results for epoch 8
+training_loss: 0.09695124471118685
+training_iou: 0.6474710982658956
+training_recall: 0.6812283236994215
+training_precision: 0.7645953757225433
+training_f1_score: 0.6812283236994215 
+
+validation_loss: 0.09655469731503241
+validation_iou: 0.6739752252252259
+validation_recall: 0.7108671171171174
+validation_precision: 0.7933558558558558
+validation_f1_score: 0.7108671171171174 
+
+
+
+starting epoch: 9
+Resnet18 results for epoch 9
+training_loss: 0.0942219188921369
+training_iou: 0.6671194605009634
+training_recall: 0.6997928709055876
+training_precision: 0.7822013487475911
+training_f1_score: 0.6997928709055876 
+
+validation_loss: 0.09569559498010455
+validation_iou: 0.6866843629343633
+validation_recall: 0.735382882882883
+validation_precision: 0.8020270270270269
+validation_f1_score: 0.735382882882883 
+
+
+
+starting epoch: 10
+Resnet18 results for epoch 10
+training_loss: 0.09367993893909317
+training_iou: 0.6610645472061653
+training_recall: 0.6953131021194607
+training_precision: 0.7779865125240848
+training_f1_score: 0.6953131021194607 
+
+validation_loss: 0.09427461531516668
+validation_iou: 0.6871396396396401
+validation_recall: 0.7220720720720721
+validation_precision: 0.8081644144144142
+validation_f1_score: 0.7220720720720721

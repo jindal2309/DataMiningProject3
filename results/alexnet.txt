@@ -1,0 +1,169 @@
+Training on Alexnet
+Hyperparameters:
+ 
+train_split: 0.7 
+batch_size: 20 
+epochs: 10 
+threshold: 0.5 
+learning_rate: 0.01 
+momentum: 0.9 
+selected_model: Alexnet 
+loss_function: BCEWithLogitsLoss
+
+starting epoch: 1
+Alexnet results for epoch 1
+training_loss: 0.16154313776534418
+training_iou: 0.4610727968242416
+training_recall: 0.5029624277456646
+training_precision: 0.5792670086817489
+training_f1_score: 0.5029624277456646 
+
+validation_loss: 0.11741757050559327
+validation_iou: 0.6134909909909914
+validation_recall: 0.6653265765765766
+validation_precision: 0.7153040540540541
+validation_f1_score: 0.6653265765765766 
+
+
+
+starting epoch: 2
+Alexnet results for epoch 2
+training_loss: 0.1040651809015026
+training_iou: 0.6335308285163774
+training_recall: 0.6687668593448937
+training_precision: 0.7465799614643541
+training_f1_score: 0.6687668593448937 
+
+validation_loss: 0.11189110164304038
+validation_iou: 0.6352139639639641
+validation_recall: 0.6911711711711712
+validation_precision: 0.7352590090090091
+validation_f1_score: 0.6911711711711712 
+
+
+
+starting epoch: 3
+Alexnet results for epoch 3
+training_loss: 0.09213848711352128
+training_iou: 0.6731599229287092
+training_recall: 0.7092485549132942
+training_precision: 0.7792630057803466
+training_f1_score: 0.7092485549132942 
+
+validation_loss: 0.109711297561188
+validation_iou: 0.6470157657657659
+validation_recall: 0.6965653153153152
+validation_precision: 0.7479166666666667
+validation_f1_score: 0.6965653153153152 
+
+
+
+starting epoch: 4
+Alexnet results for epoch 4
+training_loss: 0.08396920949392925
+training_iou: 0.6993042939719236
+training_recall: 0.731840077071291
+training_precision: 0.8073988439306355
+training_f1_score: 0.731840077071291 
+
+validation_loss: 0.10969237157621899
+validation_iou: 0.6440653153153156
+validation_recall: 0.6986036036036036
+validation_precision: 0.7397072072072074
+validation_f1_score: 0.6986036036036036 
+
+
+
+starting epoch: 5
+Alexnet results for epoch 5
+training_loss: 0.07730460291825278
+training_iou: 0.7216859344894032
+training_recall: 0.7551782273603092
+training_precision: 0.8244412331406549
+training_f1_score: 0.7551782273603092 
+
+validation_loss: 0.10785268710271732
+validation_iou: 0.6557319819819823
+validation_recall: 0.7043243243243246
+validation_precision: 0.7521396396396397
+validation_f1_score: 0.7043243243243246 
+
+
+
+starting epoch: 6
+Alexnet results for epoch 6
+training_loss: 0.07195803032100545
+training_iou: 0.7400289017341036
+training_recall: 0.7738487475915213
+training_precision: 0.8432225433526004
+training_f1_score: 0.7738487475915213 
+
+validation_loss: 0.11009484569768647
+validation_iou: 0.6510810810810816
+validation_recall: 0.7186036036036035
+validation_precision: 0.7367680180180183
+validation_f1_score: 0.7186036036036035 
+
+
+
+starting epoch: 7
+Alexnet results for epoch 7
+training_loss: 0.06798464169650409
+training_iou: 0.7591763005780349
+training_recall: 0.7905780346820808
+training_precision: 0.8554431599229286
+training_f1_score: 0.7905780346820808 
+
+validation_loss: 0.10976799456654368
+validation_iou: 0.6552815315315321
+validation_recall: 0.7189527027027028
+validation_precision: 0.7438738738738739
+validation_f1_score: 0.7189527027027028 
+
+
+
+starting epoch: 8
+Alexnet results for epoch 8
+training_loss: 0.06399864330887794
+training_iou: 0.7704479768786127
+training_recall: 0.8006454720616563
+training_precision: 0.8632129094412329
+training_f1_score: 0.8006454720616563 
+
+validation_loss: 0.11009982922995412
+validation_iou: 0.6516216216216221
+validation_recall: 0.7139752252252253
+validation_precision: 0.740349099099099
+validation_f1_score: 0.7139752252252253 
+
+
+
+starting epoch: 9
+Alexnet results for epoch 9
+training_loss: 0.06182255178173154
+training_iou: 0.7783429672447011
+training_recall: 0.8096435452793826
+training_precision: 0.8704238921001919
+training_f1_score: 0.8096435452793826 
+
+validation_loss: 0.11055679659585695
+validation_iou: 0.654538288288289
+validation_recall: 0.720247747747748
+validation_precision: 0.7453828828828831
+validation_f1_score: 0.720247747747748 
+
+
+
+starting epoch: 10
+Alexnet results for epoch 10
+training_loss: 0.05900698762408571
+training_iou: 0.7967175887696112
+training_recall: 0.8267822736030825
+training_precision: 0.8845279383429666
+training_f1_score: 0.8267822736030825 
+
+validation_loss: 0.10920478912020051
+validation_iou: 0.6497635135135139
+validation_recall: 0.7088063063063063
+validation_precision: 0.7393581081081081
+validation_f1_score: 0.7088063063063063
